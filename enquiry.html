@@ -1,444 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Happy Detailors | Enquiry</title>
+    <title>Enquiry | Happy Detailers</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
 
-
 <header class="header">
 
-<nav class="navbar">
+    <div class="container nav-container">
 
-<a href="index.html" class="logo">
-<i class="fa-solid fa-car-side"></i>
-Happy <span>Detailors</span>
-</a>
+        <a href="index.html" class="logo">
+            <span class="logo-icon">HD</span>
+            <span>Happy <strong>Detailers</strong></span>
+        </a>
 
-<button class="menu-toggle" id="menuToggle">
-<i class="fa-solid fa-bars"></i>
-</button>
+        <button class="menu-toggle" id="menuToggle">☰</button>
 
-<ul class="nav-links" id="navLinks">
+        <nav class="navbar" id="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="booking.html">Book Now</a>
+            <a href="enquiry.html" class="active">Enquiry</a>
+            <a href="contact.html">Contact</a>
+        </nav>
 
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Us</a></li>
-<li><a href="services.html">Services</a></li>
-<li><a href="gallery.html">Gallery</a></li>
-<li><a href="booking.html">Book Appointment</a></li>
-<li><a href="enquiry.html" class="active">Enquiry</a></li>
-<li><a href="contact.html">Contact</a></li>
-
-</ul>
-
-<a href="booking.html" class="nav-button">Book Now</a>
-
-</nav>
+    </div>
 
 </header>
 
 
+<main>
+
 <section class="page-banner">
 
-<div>
+    <div class="container">
 
-<p>HAPPY DETAILORS</p>
+        <p class="small-title">GET IN TOUCH</p>
 
-<h1>Make An Enquiry</h1>
+        <h1>Send Us an Enquiry</h1>
 
-</div>
+        <p>
+            Have a question? We're happy to help.
+        </p>
+
+    </div>
 
 </section>
 
 
 <section class="section">
 
-<div class="container contact-grid">
+    <div class="container form-container">
 
+        <form id="enquiryForm" class="form-card">
 
-<div>
+            <h2>How Can We Help?</h2>
 
-<p class="section-label">
-HAVE A QUESTION?
-</p>
+            <div class="form-group">
 
-<h2>
-We're Here To
-<span>Help.</span>
-</h2>
+                <label for="enquiryName">Full Name</label>
 
-<p>
-If you have questions about our services, prices,
-vehicle requirements or appointments, send us an
-enquiry and our team will respond.
-</p>
+                <input type="text" id="enquiryName" required>
 
+            </div>
 
-<div class="contact-detail">
 
-<i class="fa-solid fa-circle-question"></i>
+            <div class="form-group">
 
-<div>
+                <label for="enquiryEmail">Email Address</label>
 
-<h4>Service Questions</h4>
+                <input type="email" id="enquiryEmail" required>
 
-<p>
-Ask about any of our vehicle detailing services.
-</p>
+            </div>
 
-</div>
 
-</div>
+            <div class="form-group">
 
+                <label for="enquirySubject">Subject</label>
 
-<div class="contact-detail">
+                <input type="text" id="enquirySubject" required>
 
-<i class="fa-solid fa-money-bill"></i>
+            </div>
 
-<div>
 
-<h4>Pricing Questions</h4>
+            <div class="form-group">
 
-<p>
-Ask about prices or request a quotation.
-</p>
+                <label for="enquiryMessage">Message</label>
 
-</div>
+                <textarea id="enquiryMessage" rows="7" required></textarea>
 
-</div>
+            </div>
 
 
-<div class="contact-detail">
+            <button type="submit" class="btn btn-primary">
+                Send Enquiry
+            </button>
 
-<i class="fa-solid fa-calendar"></i>
+            <p id="enquiryMessageResult" class="form-message"></p>
 
-<div>
+        </form>
 
-<h4>Appointment Questions</h4>
-
-<p>
-Ask about available booking dates and times.
-</p>
-
-</div>
-
-</div>
-
-</div>
-
-
-<div class="contact-form-container">
-
-
-<form id="enquiryForm">
-
-
-<div class="form-group">
-
-<label for="enquiryName">
-Full Name *
-</label>
-
-<input
-type="text"
-id="enquiryName"
-required
-placeholder="Your full name">
-
-</div>
-
-
-<div class="form-group">
-
-<label for="enquiryEmail">
-Email Address *
-</label>
-
-<input
-type="email"
-id="enquiryEmail"
-required
-placeholder="your@email.com">
-
-</div>
-
-
-<div class="form-group">
-
-<label for="enquiryPhone">
-Contact Number
-</label>
-
-<input
-type="tel"
-id="enquiryPhone"
-placeholder="082 123 4567">
-
-</div>
-
-
-<div class="form-group">
-
-<label for="enquirySubject">
-Enquiry Type *
-</label>
-
-<select id="enquirySubject" required>
-
-<option value="">
-Choose an option
-</option>
-
-<option>Service Information</option>
-
-<option>Pricing</option>
-
-<option>Booking Information</option>
-
-<option>Vehicle Requirements</option>
-
-<option>General Question</option>
-
-</select>
-
-</div>
-
-
-<div class="form-group">
-
-<label for="enquiryMessage">
-Your Enquiry *
-</label>
-
-<textarea
-id="enquiryMessage"
-rows="7"
-required
-placeholder="Write your enquiry here..."></textarea>
-
-</div>
-
-
-<button
-type="submit"
-class="btn btn-primary">
-
-<i class="fa-solid fa-paper-plane"></i>
-
-Send Enquiry
-
-</button>
-
-
-</form>
-
-
-<div id="enquiryMessageBox"></div>
-
-
-</div>
-
-</div>
+    </div>
 
 </section>
 
-
-<!-- FAQ -->
-
-<section class="section grey-section">
-
-<div class="container">
-
-<div class="section-heading">
-
-<p class="section-label">
-FAQ
-</p>
-
-<h2>
-Frequently Asked
-<span>Questions</span>
-</h2>
-
-</div>
-
-
-<div class="faq-container">
-
-
-<div class="faq-item">
-
-<button class="faq-question">
-
-How long does a full detail take?
-
-<i class="fa-solid fa-plus"></i>
-
-</button>
-
-<div class="faq-answer">
-
-<p>
-A full detail can take approximately 2 to 4 hours,
-depending on the size and condition of the vehicle.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="faq-item">
-
-<button class="faq-question">
-
-Do I need to book in advance?
-
-<i class="fa-solid fa-plus"></i>
-
-</button>
-
-<div class="faq-answer">
-
-<p>
-Advance booking is recommended so that we can reserve
-your preferred date and time.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="faq-item">
-
-<button class="faq-question">
-
-Do you provide ceramic coating?
-
-<i class="fa-solid fa-plus"></i>
-
-</button>
-
-<div class="faq-answer">
-
-<p>
-Yes. Ceramic coating is one of our premium vehicle
-paint protection services.
-</p>
-
-</div>
-
-</div>
-
-
-<div class="faq-item">
-
-<button class="faq-question">
-
-How can I contact Happy Detailors?
-
-<i class="fa-solid fa-plus"></i>
-
-</button>
-
-<div class="faq-answer">
-
-<p>
-You can contact us through our contact page, telephone,
-email or WhatsApp.
-</p>
-
-</div>
-
-</div>
-
-
-</div>
-
-</div>
-
-</section>
+</main>
 
 
 <footer class="footer">
 
-<div class="container footer-grid">
+    <div class="container footer-grid">
 
-<div>
+        <div>
+            <a href="index.html" class="logo footer-logo">
+                <span class="logo-icon">HD</span>
+                <span>Happy <strong>Detailers</strong></span>
+            </a>
+            <p>Professional vehicle care you can trust.</p>
+        </div>
 
-<a href="index.html" class="logo">
-<i class="fa-solid fa-car-side"></i>
-Happy <span>Detailors</span>
-</a>
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="booking.html">Book Now</a>
+        </div>
 
-<p>
-Professional vehicle washing and detailing services.
-</p>
+        <div>
+            <h3>Contact</h3>
+            <p>📍 Johannesburg, Gauteng</p>
+            <p>📞 011 123 4567</p>
+            <p>✉ info@happydetailers.co.za</p>
+        </div>
 
-</div>
+    </div>
 
-<div class="footer-column">
-
-<h3>Pages</h3>
-
-<a href="index.html">Home</a>
-<a href="about.html">About Us</a>
-<a href="services.html">Services</a>
-<a href="gallery.html">Gallery</a>
-
-</div>
-
-<div class="footer-column">
-
-<h3>Customer</h3>
-
-<a href="booking.html">Book Appointment</a>
-<a href="enquiry.html">Enquiry</a>
-<a href="contact.html">Contact</a>
-
-</div>
-
-<div class="footer-column">
-
-<h3>Contact</h3>
-
-<p>082 123 4567</p>
-<p>info@happydetailors.co.za</p>
-
-</div>
-
-</div>
-
-<div class="footer-bottom">
-
-<p>
-&copy; <span id="year"></span> Happy Detailors.
-</p>
-
-<p>WEDE5020 Website Project</p>
-
-</div>
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Happy Detailers. All Rights Reserved.</p>
+    </div>
 
 </footer>
 
-
-<a href="https://wa.me/27821234567"
-class="whatsapp"
-target="_blank">
-
-<i class="fa-brands fa-whatsapp"></i>
-
-</a>
+<script src="js/script.js"></script>
 
 </body>
 </html>

@@ -1,0 +1,113 @@
+// ...existing code...
+
+:root {
+    --black: #111111;
+    --black-soft: #1a1a1a;
+    --yellow: #e5a900;
+    --yellow-bright: #ffc21a;
+    --white: #ffffff;
+    --off-white: #f5f5f5;
+    --text: #161616;
+    --muted: #666666;
+    --border: #e5e5e5;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text);
+    background: var(--white);
+    line-height: 1.6;
+}
+
+.light-section {
+    background: var(--off-white);
+}
+
+.small-title,
+.hero-tag,
+.card a,
+.stat h2,
+.service-number,
+.cta .small-title,
+.footer h3,
+.navbar a:hover,
+.navbar a.active {
+    color: var(--yellow);
+}
+
+.header {
+    background: var(--black);
+    color: var(--white);
+}
+
+.logo strong {
+    color: var(--yellow);
+}
+
+.logo-icon {
+    background: var(--yellow);
+    color: var(--black);
+}
+
+.btn-primary {
+    background: var(--yellow);
+    color: var(--black);
+}
+
+.btn-primary:hover {
+    background: var(--yellow-bright);
+    transform: translateY(-2px);
+}
+
+.btn-outline {
+    border-color: var(--white);
+    color: var(--white);
+}
+
+.btn-outline:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+.btn-dark {
+    background: var(--black);
+    color: var(--white);
+}
+
+.btn-dark:hover {
+    background: var(--black-soft);
+}
+
+.stats {
+    background: var(--black);
+    color: var(--white);
+}
+
+.cta {
+    background: var(--yellow);
+}
+
+.cta .btn-primary {
+    background: var(--black);
+    color: var(--white);
+}
+
+.page-banner {
+    background: var(--black);
+    color: var(--white);
+}
+
+.price-card.featured {
+    border: 2px solid var(--yellow);
+}
+
+.popular {
+    background: var(--yellow);
+}
+
+.contact-box {
+    background: var(--black);
+    color: var(--white);
+}
+
+// ...existing code...
