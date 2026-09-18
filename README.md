@@ -102,3 +102,21 @@ Happy-Detailers/
     ├── ceramic-coating.jpg
     ├── before.jpg
     └── after.jpg
+```
+
+---
+
+## Recent Design Update
+
+The website recently received a CSS styling refresh to improve the overall visual quality and user experience.
+
+### Updated styling improvements
+
+- Refined the premium black, white, and gold colour palette.
+- Improved spacing and alignment across pages for a more polished layout.
+- Updated button styles, headings, and cards for better consistency.
+- Enhanced typography and readability for a more professional presentation.
+- Improved mobile responsiveness and overall section balance.
+- Added smoother hover effects and clearer visual hierarchy.
+
+This update helps the site feel cleaner, more modern, and more consistent across the home page and all inner pages.

@@ -136,12 +136,30 @@ The project follows a simple versioning structure to show the development progre
 
 ---
 
+## [1.0.3] - CSS Styling Update
+
+### Updated
+
+- Updated the website colour palette for a more polished and premium appearance.
+- Refined spacing and alignment across the homepage and inner pages.
+- Improved buttons, cards, and section headings for a cleaner visual style.
+- Enhanced mobile responsiveness and overall consistency of the layout.
+
+### Improved
+
+- Improved typography and readability across the website.
+- Improved hero section presentation and content spacing.
+- Improved form styling for better usability.
+- Improved hover effects and visual transitions.
+
+---
+
 ## Current Version
 
-**Version:** 1.0.2  
+**Version:** 1.0.3  
 **Project:** Happy Detailers  
 **Part:** 2  
-**Status:** Development and Testing
+**Status:** CSS Styling Update and Testing
 
 ---
 

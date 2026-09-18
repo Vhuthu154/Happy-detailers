@@ -1,4 +1,14 @@
-{
+/* =========================================================
+   HAPPY DETAILERS
+   MAIN STYLESHEET
+   ========================================================= */
+
+
+/* =========================
+   RESET
+   ========================= */
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -32,6 +42,10 @@ textarea {
     font-family: inherit;
 }
 
+
+/* =========================
+   GENERAL
+   ========================= */
 
 .container {
     width: 90%;
@@ -70,6 +84,10 @@ textarea {
     color: #666;
 }
 
+
+/* =========================
+   HEADER
+   ========================= */
 
 .header {
     background: #111111;
@@ -139,6 +157,10 @@ textarea {
 }
 
 
+/* =========================
+   HERO
+   ========================= */
+
 .hero {
     min-height: 650px;
     position: relative;
@@ -188,6 +210,10 @@ textarea {
 }
 
 
+/* =========================
+   BUTTONS
+   ========================= */
+
 .btn {
     display: inline-block;
     padding: 14px 25px;
@@ -230,6 +256,10 @@ textarea {
 }
 
 
+/* =========================
+   STATS
+   ========================= */
+
 .stats {
     background: #111;
     color: white;
@@ -260,6 +290,10 @@ textarea {
     font-size: 13px;
 }
 
+
+/* =========================
+   SERVICE CARDS
+   ========================= */
 
 .service-cards {
     display: grid;
@@ -302,6 +336,10 @@ textarea {
 }
 
 
+/* =========================
+   CTA
+   ========================= */
+
 .cta {
     background: #e5a900;
     padding: 60px 0;
@@ -329,6 +367,10 @@ textarea {
 }
 
 
+/* =========================
+   PAGE BANNER
+   ========================= */
+
 .page-banner {
     background: #111;
     color: white;
@@ -345,6 +387,10 @@ textarea {
     color: #bbb;
 }
 
+
+/* =========================
+   ABOUT
+   ========================= */
 
 .about-grid {
     display: grid;
@@ -392,6 +438,10 @@ textarea {
     font-size: 14px;
 }
 
+
+/* =========================
+   PRICING
+   ========================= */
 
 .pricing-grid {
     display: grid;
@@ -445,6 +495,10 @@ textarea {
 }
 
 
+/* =========================
+   GALLERY
+   ========================= */
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -486,6 +540,10 @@ textarea {
     font-size: 12px;
 }
 
+
+/* =========================
+   FORMS
+   ========================= */
 
 .form-container {
     max-width: 900px;
@@ -544,6 +602,10 @@ textarea {
     font-weight: 700;
 }
 
+
+/* =========================
+   CONTACT
+   ========================= */
 
 .contact-grid {
     display: grid;
@@ -604,6 +666,10 @@ textarea {
 }
 
 
+/* =========================
+   FOOTER
+   ========================= */
+
 .footer {
     background: #0c0c0c;
     color: white;
@@ -655,6 +721,10 @@ textarea {
 }
 
 
+/* =========================
+   RESPONSIVE TABLET
+   ========================= */
+
 @media (max-width: 900px) {
 
     .navbar {
@@ -696,6 +766,10 @@ textarea {
 
 }
 
+
+/* =========================
+   RESPONSIVE MOBILE
+   ========================= */
 
 @media (max-width: 700px) {
 
@@ -787,34 +861,6 @@ textarea {
 
     .btn-dark {
         margin-left: 0;
-    }
-
-}
-
-.map-section {
-    padding: 0 0 90px;
-    background: #ffffff;
-}
-
-.map-container {
-    width: 100%;
-    height: 450px;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
-}
-
-.map-container iframe {
-    width: 100%;
-    height: 100%;
-    border: 0;
-    display: block;
-}
-
-@media (max-width: 700px) {
-
-    .map-container {
-        height: 350px;
     }
 
 }
